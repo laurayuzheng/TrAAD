@@ -1,9 +1,20 @@
 # [TrAAD] Traffic-Aware Autonomous Driving 
 
 <!-- ![teaser](https://github.com/dianchen96/LearningByCheating/blob/release-0.9.6/figs/fig1.png "Pipeline") -->
-> [**Traffic-Aware Autonomous Driving**](https://arxiv.org/pdf/2210.03772)    
+> [**Traffic-Aware Autonomous Driving with Differentiable Traffic Simulation**](https://arxiv.org/pdf/2210.03772)    
 > Laura Zheng, Sanghyun Son, Ming Lin        
 > [International Conference on Robotics and Automation](https://www.icra2023.org/) (ICRA 2023)      
+
+Please cite our work if you find this repo useful:
+
+```
+@INPROCEEDINGS{zheng2023trafficdriving,
+  author={Zheng, Laura Y. and Son, Sanghyun and Lin, Ming C.},
+  booktitle={2023 International Conference on Robotics and Automation (ICRA)}, 
+  title={Traffic-Aware Autonomous Driving with Differentiable Traffic Simulation}, 
+  year={2023},
+}
+```
 
 # Table of Contents
 1. [Installation and Setup](#installation-and-setup)
@@ -48,7 +59,19 @@ Lastly, modify the paths in [scripts/path_config.sh](./scripts/path_config.sh) a
 
 ### [[DATASET DOWNLOAD (UMD Box)]](https://umd.box.com/s/02iic1kzb9e4t9c6iytkgttuphd8f7he)
 
-Extracted datasets should go into the ./data folder.
+You can manually extract the datasets to the ./data folder, or alternatively run the commands below.
+
+```
+cd TrAAD
+
+curl -L  https://umd.box.com/shared/static/t2rz8m9phrl1mnrkg683476uz897z026 --output traffic_trainval.zip
+
+curl -L https://umd.box.com/shared/static/qq2fikyihl991hrhn8b967uczf4tan1d --output traffic_test.zip 
+
+unzip traffic_trainval.zip -d ./data/
+unzip traffic_test.zip -d ./data/
+
+```
 
 ### Collecting Your Own Dataset 
 
