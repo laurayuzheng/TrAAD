@@ -11,3 +11,5 @@ wandb/*
 
 logs/
 logs/*
+
+results/
