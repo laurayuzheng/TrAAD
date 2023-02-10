@@ -1,6 +1,6 @@
 # [TrAAD] Traffic-Aware Autonomous Driving 
 
-<!-- ![teaser](https://github.com/dianchen96/LearningByCheating/blob/release-0.9.6/figs/fig1.png "Pipeline") -->
+![teaser](https://obj.umiacs.umd.edu/gamma-umd-website-imgs/researchdirections/autonomousdriving/trafficdriving/traffic_driving.png "Pipeline")
 > [**Traffic-Aware Autonomous Driving with Differentiable Traffic Simulation**](https://arxiv.org/pdf/2210.03772)    
 > Laura Zheng, Sanghyun Son, Ming Lin        
 > [International Conference on Robotics and Automation](https://www.icra2023.org/) (ICRA 2023)      
