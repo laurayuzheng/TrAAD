@@ -1,0 +1,177 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "infractions": {
+                "collisions_layout": 0.5934310884591989,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 0.0,
+                "outside_route_lanes": 0.45879525558149736,
+                "red_light": 0.0,
+                "route_dev": 0.0,
+                "route_timeout": 0.0,
+                "stop_infraction": 0.0,
+                "vehicle_blocked": 0.0
+            },
+            "meta": {
+                "exceptions": [
+                    [
+                        "RouteScenario_0",
+                        0,
+                        "Failed"
+                    ],
+                    [
+                        "RouteScenario_1",
+                        1,
+                        "Failed"
+                    ],
+                    [
+                        "RouteScenario_2",
+                        2,
+                        "Failed"
+                    ]
+                ]
+            },
+            "route_id": -1,
+            "scores": {
+                "score_composed": 0.3104630268256693,
+                "score_penalty": 0.03795152749664801,
+                "score_route": 0.4860469504418569
+            },
+            "status": "Failed"
+        },
+        "progress": [
+            3,
+            50
+        ],
+        "records": [
+            {
+                "index": 0,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.fence and id=0 at (x=327.028, y=188.22, z=0.137)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 2.224 meters (5.77% of the completed route)"
+                    ],
+                    "red_light": [],
+                    "route_dev": [],
+                    "route_timeout": [],
+                    "stop_infraction": [],
+                    "vehicle_blocked": []
+                },
+                "meta": {
+                    "duration_game": 67.90000101178885,
+                    "duration_system": 227.04695773124695,
+                    "route_length": 737.4217028017997
+                },
+                "route_id": "RouteScenario_0",
+                "scores": {
+                    "score_composed": 3.104862524932626,
+                    "score_penalty": 0.6124901546215826,
+                    "score_route": 5.069244789495296
+                },
+                "status": "Failed"
+            },
+            {
+                "index": 1,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.vegetation and id=0 at (x=198.335, y=60.965, z=0.082)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "outside_route_lanes": [],
+                    "red_light": [],
+                    "route_dev": [],
+                    "route_timeout": [],
+                    "stop_infraction": [],
+                    "vehicle_blocked": []
+                },
+                "meta": {
+                    "duration_game": 74.45000110939145,
+                    "duration_system": 250.0475890636444,
+                    "route_length": 544.0356046996249
+                },
+                "route_id": "RouteScenario_1",
+                "scores": {
+                    "score_composed": 8.874121531043366,
+                    "score_penalty": 0.65,
+                    "score_route": 13.65249466314364
+                },
+                "status": "Failed"
+            },
+            {
+                "index": 2,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.fence and id=0 at (x=-2.871, y=-0.324, z=0.163)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 1.243 meters (2.29% of the completed route)"
+                    ],
+                    "red_light": [],
+                    "route_dev": [],
+                    "route_timeout": [],
+                    "stop_infraction": [],
+                    "vehicle_blocked": []
+                },
+                "meta": {
+                    "duration_game": 44.75000066682696,
+                    "duration_system": 90.88068294525146,
+                    "route_length": 936.7810583237248
+                },
+                "route_id": "RouteScenario_2",
+                "scores": {
+                    "score_composed": 3.544167285307472,
+                    "score_penalty": 0.6350862202108177,
+                    "score_route": 5.58060806945391
+                },
+                "status": "Failed"
+            }
+        ]
+    },
+    "eligible": false,
+    "entry_status": "Finished with missing data",
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked"
+    ],
+    "sensors": [
+        "carla_camera",
+        "carla_camera",
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer",
+        "carla_camera"
+    ],
+    "values": [
+        "0.310",
+        "0.486",
+        "0.038",
+        "0.000",
+        "0.000",
+        "0.593",
+        "0.000",
+        "0.000",
+        "0.459",
+        "0.000",
+        "0.000",
+        "0.000"
+    ]
+}

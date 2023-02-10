@@ -1,0 +1,1 @@
+{'x': -5454907.718839567, 'y': -584035.4698167613, 'theta': 1.571958065032959, 'speed': 4.14054320564732, 'target_speed': 7.0, 'x_command': -5454917.572900057, 'y_command': -583999.8334262914, 'command': 3, 'steer': 0.001, 'throttle': 0.75, 'brake': False, 'player_lane_state': [14.672276268680239, 4.140750025781279], 'player_ind_in_lane': 0, 'fuel_consumption': [0.0]}

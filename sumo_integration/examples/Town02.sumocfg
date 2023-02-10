@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration>
+  <input>
+    <net-file value="/scratch/2020_CARLA_challenge/sumo_integration/examples/net/Town02.net.xml"/>
+    <route-files value="/scratch/2020_CARLA_challenge/sumo_integration/examples/carlavtypes.rou.xml"/>
+  </input>
+  <gui_only>
+    <gui-settings-file value="/scratch/2020_CARLA_challenge/sumo_integration/examples/viewsettings.xml"/>
+  </gui_only>
+  <num-clients value="1"/>
+</configuration>

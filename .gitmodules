@@ -1,0 +1,15 @@
+[submodule "external/stable-baselines3-contrib"]
+	path = external/stable-baselines3-contrib
+	url = git@github.com:Stable-Baselines-Team/stable-baselines3-contrib.git
+[submodule "external/stable-baselines3"]
+	path = external/stable-baselines3
+	url = git@github.com:DLR-RM/stable-baselines3.git
+[submodule "external/leaderboard"]
+	path = external/leaderboard
+	url = git@github.com:bradyz/leaderboard.git
+[submodule "external/scenario_runner"]
+	path = external/scenario_runner
+	url = git@github.com:bradyz/scenario_runner.git
+[submodule "carla_project"]
+	path = carla_project
+	url = git@github.com:laurayuzheng/carla_project.git

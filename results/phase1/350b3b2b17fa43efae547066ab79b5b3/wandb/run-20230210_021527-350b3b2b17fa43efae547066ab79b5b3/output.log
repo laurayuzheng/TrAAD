@@ -1,0 +1,21 @@
+data/tiny/route_06_08_16_13_26_04
+618 frames.
+[618]
+Validation sanity check:   0%|                                                                                                         | 0/5 [00:00<?, ?it/s]Validation sanity check: 50it [00:05,  9.33it/s]                                                                                                             0it [00:00, ?it/s]                                                data/tiny/iteration00_08_20_03_52_42
+data/tiny/iteration00_08_20_03_56_35
+data/tiny/iteration00_08_20_04_00_52
+data/tiny/route_00_08_16_11_31_31
+data/tiny/route_01_08_16_11_49_19
+data/tiny/route_02_08_16_12_02_45
+data/tiny/route_03_08_16_12_21_09
+data/tiny/route_04_08_16_12_42_09
+data/tiny/route_05_08_16_13_00_15
+data/tiny/route_07_08_16_13_48_06
+data/tiny/route_08_08_16_14_02_08
+data/tiny/route_09_08_16_14_17_59
+5313 frames.
+[132 145  86 549 370 519 589 484 711 401 425 902]
+data/tiny/route_06_08_16_13_26_04
+618 frames.
+[618]
+  0%|                                                                                                                                 | 0/85 [00:00<?, ?it/s]Epoch 1:   0%|                                                                                                                        | 0/85 [00:00<?, ?it/s]Epoch 1:  59%|█████████████████████████████████████████████████████████████████▎                                             | 50/85 [00:07<00:05,  6.37it/s]Epoch 1:  59%|██████████████████████████████████▋                        | 50/85 [00:07<00:05,  6.37it/s, loss=0.632, v_num=350b3b2b17fa43efae547066ab79b5b3]
