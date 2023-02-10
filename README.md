@@ -16,7 +16,7 @@ Please cite our work if you find this repo useful:
 }
 ```
 
-# Table of Contents
+## Table of Contents
 1. [Installation and Setup](#installation-and-setup)
 2. [Dataset](#dataset)
 3. [Models](#models)
